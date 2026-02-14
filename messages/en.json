@@ -1,0 +1,44 @@
+{
+    "Index": {
+        "title": "Architecting the Future"
+    },
+    "Metadata": {
+        "title": "Omar Elbaz | SaaS Architect & Full Stack Engineer",
+        "description": "Senior Full Stack Engineer building digital empires with Next.js, React, and scalable cloud architectures. Available for innovation."
+    },
+    "Navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "badge": "Available for Innovation",
+        "title": "Architecting Digital Empires",
+        "description": "I craft immersive 3D experiences and scalable web applications that redefine user interaction.",
+        "cta_primary": "View Work",
+        "cta_secondary": "Contact Me"
+    },
+    "About": {
+        "title": "Beyond the Code",
+        "description": "I don't just write code; I design systems. With a background in architectural engineering and computer science, I blend structural precision with creative fluidity. My approach is rooted in building scalable, maintainable, and performant applications that stand the test of time.",
+        "stats_exp": "Years Experience",
+        "stats_projects": "Projects Delivered"
+    },
+    "Projects": {
+        "title": "Selected Works",
+        "desc_1": "An enterprise-grade AI platform leveraging GPT models for automated content generation, campaign optimization, and real-time analytics dashboards.",
+        "desc_2": "A comprehensive financial dashboard featuring real-time market data visualization, portfolio tracking, and advanced charting powered by D3.js.",
+        "desc_3": "A headless e-commerce solution built on Shopify's Storefront API with custom checkout flows, inventory management, and blazing-fast performance."
+    },
+    "Contact": {
+        "title": "Ready to Architect?",
+        "subtitle": "Let's build something extraordinary together.",
+        "copy_email": "Copy Email",
+        "copied": "Copied!"
+    },
+    "Footer": {
+        "rights": "All rights reserved.",
+        "built_with": "Built with Next.js, Tailwind & Love in Morocco."
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Index": {
+        "title": "Architecte du Futur"
+    },
+    "Metadata": {
+        "title": "Omar Elbaz | Architecte SaaS & Ingénieur Full Stack",
+        "description": "Ingénieur Full Stack Senior construisant des empires numériques avec Next.js, React et des architectures cloud évolutives. Disponible pour l'innovation."
+    },
+    "Navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "badge": "Disponible pour l'Innovation",
+        "title": "Architecte d'Empires Numériques",
+        "description": "Je crée des expériences 3D immersives et des applications web évolutives qui redéfinissent l'interaction utilisateur.",
+        "cta_primary": "Voir mes travaux",
+        "cta_secondary": "Me contacter"
+    },
+    "About": {
+        "title": "Au-delà du Code",
+        "description": "Je ne me contente pas d'écrire du code ; je conçois des systèmes. Avec une formation en ingénierie architecturale et en informatique, je mêle précision structurelle et fluidité créative. Mon approche est ancrée dans la création d'applications évolutives, maintenables et performantes qui résistent à l'épreuve du temps.",
+        "stats_exp": "Années d'Expérience",
+        "stats_projects": "Projets Livrés"
+    },
+    "Projects": {
+        "title": "Œuvres Sélectionnées",
+        "desc_1": "Une plateforme IA d'entreprise exploitant les modèles GPT pour la génération automatisée de contenu, l'optimisation de campagnes et les tableaux de bord analytiques en temps réel.",
+        "desc_2": "Un tableau de bord financier complet avec visualisation de données de marché en temps réel, suivi de portefeuille et graphiques avancés powered par D3.js.",
+        "desc_3": "Une solution e-commerce headless construite sur l'API Storefront de Shopify avec des flux de paiement personnalisés, gestion des stocks et performances ultra-rapides."
+    },
+    "Contact": {
+        "title": "Prêt à Construire ?",
+        "subtitle": "Créons ensemble quelque chose d'extraordinaire.",
+        "copy_email": "Copier l'Email",
+        "copied": "Copié !"
+    },
+    "Footer": {
+        "rights": "Tous droits réservés.",
+        "built_with": "Construit avec Next.js, Tailwind & Amour au Maroc."
+    }
+}
