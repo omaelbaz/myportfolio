@@ -10,7 +10,7 @@ const ContactSchema = z.object({
     message: z.string().min(10, { message: 'Message must be at least 10 characters long' }),
 });
 
-export async function sendEmail(formData: FormData) {
+export const sendEmail = async (formData: FormData) => {
     const senderEmail = formData.get('senderEmail');
     const message = formData.get('message');
 
