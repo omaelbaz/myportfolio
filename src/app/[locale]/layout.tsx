@@ -86,11 +86,7 @@ export async function generateMetadata({
       },
     },
     icons: {
-      icon: [
-        { url: '/images/fav.png?v=4', sizes: 'any' },
-      ],
-      shortcut: '/images/fav.png?v=4',
-      apple: '/images/fav.png?v=4',
+      icon: '/images/fav.png',
     },
   };
 }
