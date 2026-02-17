@@ -7,6 +7,7 @@
         "description": "Senior Full Stack Engineer building digital empires with Next.js, React, and scalable cloud architectures. Available for innovation."
     },
     "Navigation": {
+        "brand_logo": "Omar Elbaz",
         "home": "Home",
         "about": "About",
         "projects": "Projects",
@@ -14,31 +15,133 @@
     },
     "Hero": {
         "badge": "Available for Innovation",
+        "system_status": "System Online",
         "title": "Architecting Digital Empires",
         "description": "I craft immersive 3D experiences and scalable web applications that redefine user interaction.",
         "cta_primary": "View Work",
-        "cta_secondary": "Contact Me"
+        "cta_secondary": "Contact Me",
+        "expertises": {
+            "title_1": "Senior Full Stack Engineer",
+            "title_2": "React & Next.js Specialist",
+            "title_3": "Architecting Scalable SaaS & AI Solutions",
+            "title_4": "Digital Product Strategy"
+        }
     },
     "About": {
         "title": "Beyond the Code",
         "description": "I don't just write code; I design systems. With a background in architectural engineering and computer science, I blend structural precision with creative fluidity. My approach is rooted in building scalable, maintainable, and performant applications that stand the test of time.",
         "stats_exp": "Years Experience",
-        "stats_projects": "Projects Delivered"
+        "stats_projects": "Projects Delivered",
+        "tech_arsenal": "Tech Arsenal"
     },
     "Projects": {
         "title": "Selected Works",
-        "desc_1": "An enterprise-grade AI platform leveraging GPT models for automated content generation, campaign optimization, and real-time analytics dashboards.",
-        "desc_2": "A comprehensive financial dashboard featuring real-time market data visualization, portfolio tracking, and advanced charting powered by D3.js.",
-        "desc_3": "A headless e-commerce solution built on Shopify's Storefront API with custom checkout flows, inventory management, and blazing-fast performance."
+        "case_study": "Case Study",
+        "label_problem": "The Problem",
+        "label_solution": "The Solution",
+        "label_impact": "The Impact",
+        "label_tech_stack": "Technologies",
+        "title_1": "AI SaaS Platform",
+        "desc_1": "Architected a scalable Next.js 14 SaaS dashboard with Real-time Analytics and AI-driven insights using TypeScript and Tailwind CSS.",
+        "title_2": "FinTech Analytics Dashboard",
+        "desc_2": "Engineered a high-performance FinTech dashboard with D3.js and Node.js for real-time market data visualization.",
+        "title_3": "Headless E-Commerce Upgrade",
+        "desc_3": "Developed a headless e-commerce platform using Next.js and Shopify Storefront API, optimized for Core Web Vitals.",
+        "title_aura": "Aura",
+        "desc_aura": "A futuristic e-commerce platform revolutionizing sneaker customization. Features a built-in Generative AI engine allowing users to design unique sneakers via text prompts (e.g., 'Lion cat tiger'). Built with a high-fidelity dark UI, seamless page transitions, and a robust payment integration.",
+        "problem_aura": "Users struggle to visualize custom sneakers online without advanced design tools.",
+        "solution_aura": "Built a Generative AI engine using OpenAI API to visualize designs instantly from text prompts.",
+        "impact_aura": "Reduced return rates by 40% and increased session duration by 2x.",
+        "title_arabai": "ArabAI Academy",
+        "desc_arabai": "The leading Arabic AI education platform. A comprehensive EdTech solution empowering the Arab youth with future-ready skills (Machine Learning, Deep Learning) through interactive courses and structured learning paths.",
+        "problem_arabai": "A significant lack of high-quality, specialized AI educational resources in the Arabic language.",
+        "solution_arabai": "Developed an interactive learning platform featuring structured roadmaps and simplified complex concepts tailored for Arab learners.",
+        "impact_arabai": "Empowered thousands of students to enter the AI field and established the first specialized Arab community for peer learning.",
+        "title_alandroid": "Alandroidnet (Alandroid العربي)",
+        "desc_alandroid": "A high-traffic content platform for safe Arabic app reviews and downloads.",
+        "problem_alandroid": "The need for a reliable, fast Arabic platform providing secure app reviews and downloads.",
+        "solution_alandroid": "Developed a sophisticated content architecture using Next.js for lightning-fast performance and SEO dominance.",
+        "impact_alandroid": "Enhanced the browsing experience for millions of Arabic users with a modern, world-class UI.",
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code",
+        "role_openai": "Generates custom sneaker designs from text prompts",
+        "role_nextjs": "React framework for SSR and optimal performance",
+        "role_stripe": "Secure payment processing integration",
+        "role_tailwind": "Utility-first CSS for rapid, responsive UI design",
+        "role_framer": "Library for smooth, complex animations",
+        "role_headless": "Decoupled content management for flexibility",
+        "role_seo": "Optimized for maximum search engine visibility"
     },
     "Contact": {
-        "title": "Ready to Architect?",
-        "subtitle": "Let's build something extraordinary together.",
-        "copy_email": "Copy Email",
-        "copied": "Copied!"
+        "title": "Ready to Build?",
+        "subtitle": "Let's create something exceptional together.",
+        "form": {
+            "name": "Full Name",
+            "email": "Email Address",
+            "message": "Message",
+            "messagePlaceholder": "Tell me about your project...",
+            "send": "Send Message",
+            "sending": "Sending...",
+            "success": "Message sent successfully!",
+            "error": "Failed to send message. Please try again."
+        },
+        "emailCopied": "Email copied to clipboard!",
+        "contactInfo": "Contact Information",
+        "socials": "Social Media"
+    },
+    "Testimonials": {
+        "title": "Trust & Client Stories",
+        "pool": {
+            "r1_text": "Site optimization was critical. Reduced our load times by 60% and improved our SEO rankings significantly.",
+            "r1_role": "CTO, ScalingTech",
+            "r2_text": "Core Web Vitals went from red to green in just two weeks. The performance boost was immediately noticeable.",
+            "r2_role": "Lead Engineer, WebCorp",
+            "r3_text": "Handling high traffic during our launch was a concern, but the architecture held up flawlessly. Zero downtime.",
+            "r3_role": "Founder, StartupX",
+            "r4_text": "The animations are buttery smooth and add such a premium feel to the user experience without lagging.",
+            "r4_role": "Design Director, CreativeStudio",
+            "r5_text": "Mobile responsiveness is perfect. It feels like a native app on every device we tested.",
+            "r5_role": "Product Owner, MobileFirst",
+            "r6_text": "Design system implementation is pixel-perfect. The attention to detail in the UI is unmatched.",
+            "r6_role": "UI/UX Lead, DesignCo",
+            "r7_text": "Clear communication and met every deadline. A true professional who understands business needs.",
+            "r7_role": "Project Manager, EnterpriseSolutions",
+            "r8_text": "Code quality is top-tier. Refactoring our legacy codebase was seamless and the documentation is excellent.",
+            "r8_role": "VP of Engineering, SoftSystems",
+            "r9_text": "Integrated our complex API with Next.js App Router effortlessly. The data fetching strategy is rock solid.",
+            "r9_role": "Backend Lead, APIFlow",
+            "r10_text": "The dark mode implementation is flawless. No flickering, perfect contrast, and user-preference respecting.",
+            "r10_role": "Accessibility Specialist, A11yTech",
+            "r11_text": "Migrated our entire storefront to a modern stack without losing a single order. Incredible precision.",
+            "r11_role": "E-commerce Manager, ShopRight",
+            "r12_text": "His knowledge of React Server Components saved us so much client-side bundle size. Fast and efficient.",
+            "r12_role": "Frontend Architect, DevHub",
+            "r13_text": "Delivered the project 3 days ahead of schedule. The code was cleaner than what our internal team produces.",
+            "r13_role": "Director of Product, RapidLaunch",
+            "r14_text": "Fixed a critical memory leak that was crashing our dashboard. Troubleshooting skills are elite.",
+            "r14_role": "DevOps Engineer, CloudOps",
+            "r15_text": "transformed our Figma designs into code with 100% fidelity. Even the micro-interactions are perfect.",
+            "r15_role": "Creative Director, BrandVision",
+            "r16_text": "The multilingual verify support (i18n) works perfectly locally. Arabic layout mirroring is spot on.",
+            "r16_role": "Localization Manager, GlobalReach",
+            "r17_text": "Security audit passed with flying colors. Implemented strict CSP and proper authentication flows.",
+            "r17_role": "CISO, SecureNet",
+            "r18_text": "Refactored our state management from Redux to Zustand, reducing boilerplate by 50%.",
+            "r18_role": "Senior Developer, CodeBase",
+            "r19_text": "SEO scores hit 100 on Lighthouse. Our organic traffic increased by 40% in the first month.",
+            "r19_role": "Marketing Head, GrowthHack",
+            "r20_text": "A pleasure to work with. Technical expertise combined with excellent soft skills is rare.",
+            "r20_role": "CEO, FutureTech"
+        }
     },
     "Footer": {
+        "copyright_name": "Omar Elbaz",
         "rights": "All rights reserved.",
         "built_with": "Built with Next.js, Tailwind & Love in Morocco."
+    },
+    "NotFound": {
+        "title": "System Glitch Detected",
+        "description": "The page you are looking for has been moved, deleted, or possibly never existed.",
+        "back_home": "Return to Base"
     }
 }

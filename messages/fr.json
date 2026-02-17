@@ -7,6 +7,7 @@
         "description": "Ingénieur Full Stack Senior construisant des empires numériques avec Next.js, React et des architectures cloud évolutives. Disponible pour l'innovation."
     },
     "Navigation": {
+        "brand_logo": "Omar Elbaz",
         "home": "Accueil",
         "about": "À propos",
         "projects": "Projets",
@@ -14,31 +15,135 @@
     },
     "Hero": {
         "badge": "Disponible pour l'Innovation",
+        "system_status": "Système Opérationnel",
         "title": "Architecte d'Empires Numériques",
         "description": "Je crée des expériences 3D immersives et des applications web évolutives qui redéfinissent l'interaction utilisateur.",
         "cta_primary": "Voir mes travaux",
-        "cta_secondary": "Me contacter"
+        "cta_secondary": "Me contacter",
+        "expertises": {
+            "title_1": "Ingénieur Full Stack Senior",
+            "title_2": "Spécialiste React & Next.js",
+            "title_3": "Architecture de Solutions SaaS & IA Évolutives",
+            "title_4": "Stratégie de Produit Numérique"
+        }
     },
     "About": {
         "title": "Au-delà du Code",
         "description": "Je ne me contente pas d'écrire du code ; je conçois des systèmes. Avec une formation en ingénierie architecturale et en informatique, je mêle précision structurelle et fluidité créative. Mon approche est ancrée dans la création d'applications évolutives, maintenables et performantes qui résistent à l'épreuve du temps.",
         "stats_exp": "Années d'Expérience",
-        "stats_projects": "Projets Livrés"
+        "stats_projects": "Projets Livrés",
+        "tech_arsenal": "Arsenal Technique"
     },
     "Projects": {
-        "title": "Œuvres Sélectionnées",
-        "desc_1": "Une plateforme IA d'entreprise exploitant les modèles GPT pour la génération automatisée de contenu, l'optimisation de campagnes et les tableaux de bord analytiques en temps réel.",
-        "desc_2": "Un tableau de bord financier complet avec visualisation de données de marché en temps réel, suivi de portefeuille et graphiques avancés powered par D3.js.",
-        "desc_3": "Une solution e-commerce headless construite sur l'API Storefront de Shopify avec des flux de paiement personnalisés, gestion des stocks et performances ultra-rapides."
+        "title": "Projets Sélectionnés",
+        "case_study": "Étude de Cas",
+        "label_problem": "Le Problème",
+        "label_solution": "La Solution",
+        "label_impact": "L'Impact",
+        "label_tech_stack": "Technologies",
+        "title_1": "Plateforme SaaS IA",
+        "desc_1": "Architecture d'une plateforme SaaS Next.js 14 évolutive avec analyses en temps réel et intelligence artificielle via TypeScript.",
+        "title_2": "Tableau de Bord FinTech",
+        "desc_2": "Conception d'un tableau de bord FinTech haute performance utilisant D3.js et Node.js pour la visualisation des données de marché.",
+        "title_3": "E-Commerce Headless",
+        "desc_3": "Développement d'une solution e-commerce headless optimisée pour les Core Web Vitals avec Next.js et l'API Shopify Storefront.",
+        "title_aura": "Aura",
+        "desc_aura": "Une plateforme e-commerce futuriste révolutionnant la personnalisation des sneakers. Intègre un moteur d'IA générative permettant aux utilisateurs de concevoir des baskets uniques via des prompts textuels. Conçue avec une UI sombre haute fidélité, des transitions fluides et une intégration de paiement robuste.",
+        "problem_aura": "Les utilisateurs ont du mal à visualiser les baskets personnalisées en ligne sans outils de conception avancés.",
+        "solution_aura": "Construction d'un moteur d'IA générative utilisant l'API OpenAI pour visualiser instantanément les conceptions à partir de descriptions textuelles.",
+        "impact_aura": "Réduction des taux de retour de 40% et augmentation de la durée de session par 2.",
+        "title_arabai": "ArabAI Academy",
+        "desc_arabai": "La plus grande académie arabe d'intelligence artificielle. Une plateforme EdTech complète visant à doter la jeunesse arabe des compétences du futur (Machine Learning, Deep Learning) grâce à des cours interactifs.",
+        "problem_arabai": "Manque de ressources éducatives spécialisées en IA de haute qualité en langue arabe.",
+        "solution_arabai": "Développement d'une plateforme interactive offrant des parcours structurés et des concepts simplifiés pour le public arabe.",
+        "impact_arabai": "A permis à des milliers d'étudiants d'accéder au domaine de l'IA et a créé la première communauté arabe spécialisée.",
+        "title_alandroid": "Alandroidnet (Alandroid العربي)",
+        "desc_alandroid": "Une plateforme de contenu à fort trafic pour des avis et téléchargements d'applications sécurisés en arabe.",
+        "problem_alandroid": "Besoin d'une plateforme arabe fiable et rapide pour les tests et téléchargements sécurisés d'applications.",
+        "solution_alandroid": "Construction d'une architecture de contenu sophistiquée avec Next.js pour garantir des performances optimales et un SEO maîtrisé.",
+        "impact_alandroid": "Amélioration de l'expérience utilisateur pour des millions de locuteurs arabes.",
+        "liveDemo": "Démo en direct",
+        "sourceCode": "Code Source",
+        "role_openai": "Génère des designs de baskets personnalisés via texte",
+        "role_nextjs": "Framework React pour SSR et performance optimale",
+        "role_stripe": "Intégration de traitement des paiements sécurisé",
+        "role_tailwind": "CSS utilitaire pour un design UI rapide et réactif",
+        "role_framer": "Bibliothèque pour animations fluides et complexes",
+        "role_headless": "Gestion de contenu découplée pour plus de flexibilité",
+        "role_seo": "Optimisé pour une visibilité maximale sur les moteurs de recherche"
     },
     "Contact": {
         "title": "Prêt à Construire ?",
-        "subtitle": "Créons ensemble quelque chose d'extraordinaire.",
-        "copy_email": "Copier l'Email",
-        "copied": "Copié !"
+        "subtitle": "Créons quelque chose d'exceptionnel ensemble.",
+        "form": {
+            "name": "Nom Complet",
+            "email": "Adresse Email",
+            "message": "Message",
+            "messagePlaceholder": "Parlez-moi de votre projet...",
+            "send": "Envoyer le Message",
+            "sending": "Envoi en cours...",
+            "success": "Message envoyé avec succès !",
+            "error": "Échec de l'envoi du message. Veuillez réessayer."
+        },
+        "copy_email": "Copier Email",
+        "copied": "Copié !",
+        "emailCopied": "Email copié dans le presse-papiers !",
+        "contactInfo": "Coordonnées",
+        "socials": "Réseaux Sociaux"
+    },
+    "Testimonials": {
+        "title": "Confiance et Témoignages",
+        "pool": {
+            "r1_text": "L'optimisation du site était critique. Il a réduit nos temps de chargement de 60% et amélioré notre SEO.",
+            "r1_role": "CTO, ScalingTech",
+            "r2_text": "Les Core Web Vitals sont passés du rouge au vert en deux semaines. Le gain de performance est immédiat.",
+            "r2_role": "Ingénieur Principal, WebCorp",
+            "r3_text": "Gérer le fort trafic au lancement nous inquiétait, mais l'architecture a tenu bon. Aucun temps d'arrêt.",
+            "r3_role": "Fondateur, StartupX",
+            "r4_text": "Les animations sont ultra fluides et donnent un aspect premium sans ralentir l'expérience utilisateur.",
+            "r4_role": "Directeur Design, CreativeStudio",
+            "r5_text": "La réactivité mobile est parfaite. On dirait une application native sur tous les appareils testés.",
+            "r5_role": "Product Owner, MobileFirst",
+            "r6_text": "L'implémentation du Design System est au pixel près. Le souci du détail UI est inégalé.",
+            "r6_role": "Lead UI/UX, DesignCo",
+            "r7_text": "Communication claire et délais respectés. Un vrai professionnel qui comprend les enjeux business.",
+            "r7_role": "Chef de Projet, EnterpriseSolutions",
+            "r8_text": "La qualité du code est top. La refactorisation de notre code legacy s'est faite sans heurts.",
+            "r8_role": "VP Engineering, SoftSystems",
+            "r9_text": "Intégration complexe de l'API avec Next.js App Router sans effort. La stratégie de data fetching est solide.",
+            "r9_role": "Lead Backend, APIFlow",
+            "r10_text": "Le mode sombre est impeccable. Aucun scintillement, contraste parfait et respect des préférences utilisateur.",
+            "r10_role": "Expert Accessibilité, A11yTech",
+            "r11_text": "Migration complète de notre boutique vers une stack moderne sans perdre une seule commande. Précision incroyable.",
+            "r11_role": "Manager E-commerce, ShopRight",
+            "r12_text": "Sa connaissance des React Server Components nous a fait économiser beaucoup de bundle size.",
+            "r12_role": "Architecte Frontend, DevHub",
+            "r13_text": "Projet livré avec 3 jours d'avance. Le code était plus propre que celui de notre équipe interne.",
+            "r13_role": "Directeur Produit, RapidLaunch",
+            "r14_text": "A corrigé une fuite de mémoire critique qui faisait planter notre dashboard. Compétences d'élite.",
+            "r14_role": "Ingénieur DevOps, CloudOps",
+            "r15_text": "A transformé nos designs Figma en code avec une fidélité de 100%. Même les micro-interactions sont parfaites.",
+            "r15_role": "Directeur Créatif, BrandVision",
+            "r16_text": "Le support multilingue (i18n) fonctionne parfaitement. La mise en page Arabe est impeccable.",
+            "r16_role": "Manager Localisation, GlobalReach",
+            "r17_text": "Audit de sécurité passé haut la main. CSP stricte et flux d'authentification corrects mis en place.",
+            "r17_role": "CISO, SecureNet",
+            "r18_text": "Refactorisation de Redux vers Zustand, réduisant le code boilerplate de 50%.",
+            "r18_role": "Développeur Senior, CodeBase",
+            "r19_text": "Scores SEO de 100 sur Lighthouse. Notre trafic organique a augmenté de 40% le premier mois.",
+            "r19_role": "Responsable Marketing, GrowthHack",
+            "r20_text": "Un plaisir de travailler ensemble. Expertise technique et excellentes compétences humaines.",
+            "r20_role": "PDG, FutureTech"
+        }
     },
     "Footer": {
+        "copyright_name": "Omar Elbaz",
         "rights": "Tous droits réservés.",
         "built_with": "Construit avec Next.js, Tailwind & Amour au Maroc."
+    },
+    "NotFound": {
+        "title": "Défaillance Système Détectée",
+        "description": "La page que vous recherchez a été déplacée, supprimée ou n'a peut-être jamais existé.",
+        "back_home": "Retour à la Base"
     }
 }

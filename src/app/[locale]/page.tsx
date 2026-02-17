@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Hero } from '@/components/sections/Hero';
 import { About } from '@/components/sections/about';
 import { Projects } from '@/components/sections/Projects';
+import { Testimonials } from '@/components/sections/Testimonials';
 import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/shared/Footer';
 
@@ -30,14 +31,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default function Home() {
   return (
-    <>
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Hero />
+      <About />
+      <Projects />
+      <Testimonials />
+      <Contact />
+    </main>
   );
 }
