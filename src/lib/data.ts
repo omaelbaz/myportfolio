@@ -9,6 +9,7 @@ export interface Project {
     image: string; // Added image path
     isCaseStudy?: boolean;
     details?: {
+        longDescKey?: string;
         problemKey: string;
         solutionKey: string;
         impactKey: string;
@@ -17,6 +18,22 @@ export interface Project {
 }
 
 export const PROJECTS: Project[] = [
+    {
+        id: 'intilaq',
+        titleKey: 'title_intilaq',
+        descKey: 'desc_intilaq',
+        tags: ['Next.js', 'Tailwind CSS', 'RTL UI', 'Dark Mode'],
+        link: 'https://github.com/omaelbaz/intaliq-store',
+        color: 'from-zinc-800 to-black',
+        image: '/images/projects/intilaq.jpg',
+        isCaseStudy: true,
+        details: {
+            longDescKey: 'long_intilaq',
+            problemKey: 'prob_intilaq',
+            solutionKey: 'sol_intilaq',
+            impactKey: 'imp_intilaq',
+        }
+    },
     {
         id: 'aura-ai',
         titleKey: 'title_aura',
