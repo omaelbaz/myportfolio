@@ -32,7 +32,13 @@
         "description": "I don't just write code; I design systems. With a background in architectural engineering and computer science, I blend structural precision with creative fluidity. My approach is rooted in building scalable, maintainable, and performant applications that stand the test of time.",
         "stats_exp": "Years Experience",
         "stats_projects": "Projects Delivered",
-        "tech_arsenal": "Tech Arsenal"
+        "tech_arsenal": "Tech Arsenal",
+        "cat_frontend": "Frontend",
+        "cat_language": "Language",
+        "cat_backend": "Backend",
+        "cat_devops": "DevOps",
+        "cat_cloud": "Cloud",
+        "cat_design": "Design"
     },
     "Projects": {
         "title": "Selected Works",

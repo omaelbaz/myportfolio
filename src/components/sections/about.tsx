@@ -3,34 +3,39 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { motion, useMotionTemplate, useMotionValue, useSpring } from 'framer-motion';
 import {
-    Code, Server, Layout, Database, Terminal, Cloud, Cpu, Layers,
+    Code, Server, Layout, Database, Terminal, Cloud, Cpu, Layers, Figma,
     type LucideIcon
 } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { cn } from '@/lib/utils';
 import { useRef, useState, type MouseEvent } from 'react';
+import { SiLaravel } from 'react-icons/si';
 
 /* ─── Tech Stack Data with Brand Colors ─── */
 interface TechItem {
     name: string;
-    icon: LucideIcon;
+    icon: React.ComponentType<{ className?: string; style?: React.CSSProperties; strokeWidth?: number }>;
     color: string;
-    category: string;
+    categoryKey: string;
 }
 
 const STACK: TechItem[] = [
-    { name: 'React', icon: Code, color: '#61DAFB', category: 'Frontend' },
-    { name: 'Next.js', icon: Layout, color: '#FFFFFF', category: 'Frontend' },
-    { name: 'Tailwind', icon: Layers, color: '#38B2AC', category: 'Frontend' },
-    { name: 'TypeScript', icon: Terminal, color: '#3178C6', category: 'Language' },
-    { name: 'Node.js', icon: Server, color: '#339933', category: 'Backend' },
-    { name: 'PostgreSQL', icon: Database, color: '#336791', category: 'Backend' },
-    { name: 'Docker', icon: Cpu, color: '#2496ED', category: 'DevOps' },
-    { name: 'AWS', icon: Cloud, color: '#FF9900', category: 'Cloud' },
+    { name: 'React', icon: Code, color: '#61DAFB', categoryKey: 'cat_frontend' },
+    { name: 'Next.js', icon: Layout, color: '#FFFFFF', categoryKey: 'cat_frontend' },
+    { name: 'Tailwind', icon: Layers, color: '#38B2AC', categoryKey: 'cat_frontend' },
+    { name: 'TypeScript', icon: Terminal, color: '#3178C6', categoryKey: 'cat_language' },
+    { name: 'Node.js', icon: Server, color: '#339933', categoryKey: 'cat_backend' },
+    { name: 'PostgreSQL', icon: Database, color: '#336791', categoryKey: 'cat_backend' },
+    { name: 'Docker', icon: Cpu, color: '#2496ED', categoryKey: 'cat_devops' },
+    { name: 'AWS', icon: Cloud, color: '#FF9900', categoryKey: 'cat_cloud' },
+    { name: 'Figma', icon: Figma, color: '#F24E1E', categoryKey: 'cat_design' },
+    { name: 'Laravel', icon: SiLaravel, color: '#FF2D20', categoryKey: 'cat_backend' },
 ];
+
 
 /* ─── 3D Tilt Card ─── */
 function TiltCard({ tech, index }: { tech: TechItem; index: number }) {
+    const t = useTranslations('About');
     const ref = useRef<HTMLDivElement>(null);
     const [hovered, setHovered] = useState(false);
 
@@ -132,7 +137,7 @@ function TiltCard({ tech, index }: { tech: TechItem; index: number }) {
                             backgroundColor: hovered ? `${tech.color}10` : 'rgba(255,255,255,0.03)',
                         }}
                     >
-                        {tech.category}
+                        {t(tech.categoryKey)}
                     </span>
                 </div>
             </div>

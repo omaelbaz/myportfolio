@@ -32,7 +32,13 @@
         "description": "Je ne me contente pas d'écrire du code ; je conçois des systèmes. Avec une formation en ingénierie architecturale et en informatique, je mêle précision structurelle et fluidité créative. Mon approche est ancrée dans la création d'applications évolutives, maintenables et performantes qui résistent à l'épreuve du temps.",
         "stats_exp": "Années d'Expérience",
         "stats_projects": "Projets Livrés",
-        "tech_arsenal": "Arsenal Technique"
+        "tech_arsenal": "Arsenal Technique",
+        "cat_frontend": "Frontend",
+        "cat_language": "Langage",
+        "cat_backend": "Backend",
+        "cat_devops": "DevOps",
+        "cat_cloud": "Cloud",
+        "cat_design": "Design"
     },
     "Projects": {
         "title": "Projets Sélectionnés",
