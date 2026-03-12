@@ -1,31 +1,28 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
 import { SITE_URL } from '@/lib/constants';
 import { routing } from '@/i18n/routing';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const locales = routing.locales;
-    
-    // Define the routes that need to be localized
-    const routes = [
-        { path: '', changeFrequency: 'yearly' as const, priority: 1.0 },
-        { path: '/about', changeFrequency: 'monthly' as const, priority: 0.8 },
-        { path: '/projects', changeFrequency: 'weekly' as const, priority: 0.8 },
-        { path: '/contact', changeFrequency: 'yearly' as const, priority: 0.5 },
+    const defaultLocale = routing.defaultLocale;
+
+    const routes: { path: string; changeFrequency: 'yearly' | 'monthly' | 'weekly'; priority: number }[] = [
+        { path: '', changeFrequency: 'yearly', priority: 1.0 },
+        { path: '/about', changeFrequency: 'monthly', priority: 0.8 },
+        { path: '/projects', changeFrequency: 'weekly', priority: 0.8 },
+        { path: '/contact', changeFrequency: 'yearly', priority: 0.5 },
     ];
 
-    return routes.flatMap((route) => {
-        return locales.map((locale) => {
-            const path = route.path === '' ? '' : route.path;
-            const url = `${SITE_URL}/${locale}${path}`;
-
-            // Generate alternate languages for this specific route
-            const languages = locales.reduce((acc, l) => {
-                acc[l] = `${SITE_URL}/${l}${path}`;
-                return acc;
-            }, {} as Record<string, string>);
+    return routes.flatMap((route) =>
+        locales.map((locale) => {
+            const languages: Record<string, string> = {};
+            for (const l of locales) {
+                languages[l] = `${SITE_URL}/${l}${route.path}`;
+            }
+            languages['x-default'] = `${SITE_URL}/${defaultLocale}${route.path}`;
 
             return {
-                url,
+                url: `${SITE_URL}/${locale}${route.path}`,
                 lastModified: new Date(),
                 changeFrequency: route.changeFrequency,
                 priority: route.priority,
@@ -33,6 +30,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
                     languages,
                 },
             };
-        });
-    });
+        })
+    );
 }

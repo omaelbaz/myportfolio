@@ -9,7 +9,8 @@ export const config = {
         // - /api (API routes)
         // - /_next (Next.js internals)
         // - /_vercel (Vercel internals)
+        // - /sitemap.xml, /robots.txt (Next.js metadata files)
         // - all files with an extension (e.g. favicon.ico, image.jpg)
-        '/((?!api|_next|_vercel|.*\\..*).*)'
+        '/((?!api|_next|_vercel|sitemap\\.xml|robots\\.txt|.*\\..*).*)' 
     ]
 };
