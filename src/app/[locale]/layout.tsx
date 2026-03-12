@@ -88,6 +88,9 @@ export async function generateMetadata({
     icons: {
       icon: '/images/fav.png',
     },
+    verification: {
+      google: 'JcZxYczhyPHGY8gk4ieQPgPDP2-XJvg2TExlKuIN9Xc',
+    },
   };
 }
 
